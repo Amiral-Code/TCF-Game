@@ -1,0 +1,26 @@
+**TSF - The Deductive Number Game**
+
+**Objective:**
+Guess the secret number with N unique digits using deductive reasoning and the provided clues.
+
+**Rules:**
+1. The secret number consists of N unique digits with no repeats.
+2. Players attempt to guess the secret number, and for each guess, they receive clues in the form of 'T', 'S', and 'F.'
+   - 'T': Indicates that the digit is correct and in the right position.
+   - 'S': Indicates that the digit is correct but in the wrong position.
+   - 'F': Indicates that the digit is incorrect.
+3. The game continues until the player correctly guesses the entire secret number or decides to give up.
+
+**Example:**
+Secret Number: 4821
+Player's Guess: 2148
+Clues: ['S', 'S', 'T', 'F']
+Explanation: The first two digits are correct but in the wrong positions, the third digit is correct and in the right position, and the last digit is incorrect.
+
+**Hints for Players:**
+- Use the provided clues to deduce the correct positions of digits.
+- Eliminate incorrect digits based on the 'F' clues.
+- Iterate and refine guesses based on the feedback received.
+
+Enjoy the challenge of TSF, and may your deductive skills lead you to the secret number!
+
