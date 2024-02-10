@@ -25,7 +25,7 @@ def get_max_guesses():
             print("Invalid input. Please enter a valid number.")
 
 def display_rules():
-    file_path = 'CLASS\TSF_Game_Rules.txt'
+    file_path = 'TSF_Game_Rules.txt'
 
     if os.path.exists(file_path):
         with open(file_path, 'r') as file:
